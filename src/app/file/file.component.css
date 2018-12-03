@@ -1,0 +1,33 @@
+:host {
+  background-color: #f1f0f0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.file {
+  width: 600px;
+  flex-grow: 1;
+  background-color: #fff;
+  border: 1px solid #e4dede;
+  padding: 20px;
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+.underlined {
+  text-decoration: underline;
+}
+span {
+  padding-left: 5px
+}
+.file>div {
+  display: inline-block;
+}
+.offset {
+  padding-left: 3px; 
+}

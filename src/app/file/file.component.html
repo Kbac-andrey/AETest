@@ -1,0 +1,5 @@
+<div class="file">
+    <div *ngFor="let word of words; let i = index" (click)="selectWord(i)" [ngClass]="{'bold': word.bold, 'italic': word.italic, 'underlined': word.underlined, 'offset':word.value !== ','}">
+      {{word.value}}
+    </div>
+</div> 

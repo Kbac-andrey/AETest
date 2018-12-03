@@ -1,0 +1,7 @@
+<div class="synonym">
+  <h2 class= "synonym-title">Synonym list</h2>
+  <ul class="syn-list" *ngFor="let item of syn">
+    <li class="syn-item" *ngIf="syn.length !== 0" (click)="applySyn(item.word)">{{item?.word}}</li>
+  </ul>
+  <span *ngIf="!syn || syn.length == 0">{{error}}</span>
+</div>

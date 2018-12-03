@@ -1,0 +1,23 @@
+:host {
+  background-color: #f1f0f0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.synonym {
+  width: 600px;
+  background-color: #fff;
+  border: 1px solid #e4dede;
+  padding: 20px;
+}
+.synonym-title {
+  text-align: center;
+}
+.syn-list {
+  list-style-type: none;
+}
+.syn-item:hover {
+  color: #84bfff;
+  cursor: pointer;
+}
