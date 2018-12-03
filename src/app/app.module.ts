@@ -7,7 +7,6 @@ import { HeaderComponent } from './header/header.component';
 import {SynonymListComponent } from './synonym-list/synonym-list.component';
 import { FormsModule } from '@angular/forms';
 import { TextService } from './text-service/text.service';
-import { BoldDirective } from './directives/bold-directive.directive';
 import { HttpClientModule } from '@angular/common/http';
 
 
@@ -18,8 +17,7 @@ import { HttpClientModule } from '@angular/common/http';
       FileComponent,
       ControlPanelComponent,
       HeaderComponent,
-      SynonymListComponent,
-      BoldDirective,
+      SynonymListComponent
    ],
    imports: [
       BrowserModule,
